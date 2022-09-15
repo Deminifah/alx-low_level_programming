@@ -25,5 +25,4 @@ int main(void)
     			printf("%d negative\n",n);
    		}
    		return (0);
-}
-		
+}	

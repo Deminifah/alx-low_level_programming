@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main -Entry point
- * Description:prints all possible combinations of different digits, inascending order, seperated by comma followed by space
+ * Description: prints all possible combo of diff digits, in ascending oder
  * Return: Always 0 (success)
  */
 int main(void)

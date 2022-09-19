@@ -5,7 +5,7 @@
  * Description:prints all possible combinations of different digits, inascending order, seperated by comma followed by space
  * Return: Always 0 (success)
  */
-int mai(void)
+int main(void)
 {
 	int digit1, digit2;
 

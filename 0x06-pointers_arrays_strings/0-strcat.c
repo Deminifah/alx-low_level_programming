@@ -1,10 +1,10 @@
 #include <main.h>
-#include <stdio.h>
 
 /**
- * main - check the code
- * Description: Write a function that concatenates two strings
- * Return: Always 0 (success)
+ * *_strcat - concatenates @scr to @dest
+ * @scr: the source string to append to @dest
+ * @dest: the destination string to be concatenated upon
+ * Return: pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -15,6 +15,6 @@ char *_strcat(char *dest, char *src)
 		dest_len++;
 	for (index = 0; scr[index]; index++)
 		dest[dest_len++] = scr[index];
-	return (0)
+	return (dest)
 
 }

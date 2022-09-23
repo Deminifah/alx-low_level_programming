@@ -6,6 +6,7 @@
  * @dest: the destination string to be concatenated upon
  * Return: pointer to the resulting string
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int index = 0;

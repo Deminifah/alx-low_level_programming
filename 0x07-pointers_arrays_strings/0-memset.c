@@ -1,4 +1,5 @@
-#include <alx.h>
+#include <stdio.h>
+#include <unistd.h>
 #include <main.h>
 /**
  * Description: write a function that fills memory with a constant byte
@@ -6,7 +7,7 @@
  * @n : number of bytes
  * @b : constant byte
  *
- * return: a point to the memory area @s
+ * return: 0
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -18,5 +19,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 
-	return (s);
+	return (0);
 }

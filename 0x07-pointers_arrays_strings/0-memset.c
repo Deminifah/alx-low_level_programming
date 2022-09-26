@@ -7,7 +7,7 @@
  * @n : number of bytes
  * @b : constant byte
  *
- * return: 0
+ * return: @s
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -19,5 +19,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 
-	return (0);
+	return (s);
 }
